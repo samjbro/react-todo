@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.todo__delete {
+  /* font-size: 10px; */
+  color: red;
+  margin-left: 5px;
+  text-transform: lowercase;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.1s;
+}
+.todo__delete:hover {
+  transform: scale(1.5);
+}
